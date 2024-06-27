@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=ProbabilityGame
+comment0.text=\r\n\ @Description\:\r\n\ The\ Probability\ Game\ is\ an\ engaging\ JavaFX-based\ game\ where\ players\ attempt\ to\ find\ hidden\ prizes\ within\ a\ 3x5\ grid\ of\ buttons.\r\n\ With\ only\ 6\ tries,\ players\ must\ click\ on\ the\ buttons\ to\ uncover\ 3\ hidden\ prizes.\ The\ game\ challenges\ players'\ luck\ and\ strategy,\r\n\ providing\ instant\ feedback\ on\ their\ progress.\ If\ all\ prizes\ are\ found\ within\ the\ allotted\ attempts,\ the\ player\ wins;\ otherwise,\ they\ lose.\r\n\ \r\n\ @author\:\ Tonye\ Jackreece\r\n\ @date\:\ 22/06/2024\r\n\ @studentNumber\:\ 3765653\r\n
+comment1.params=primaryStage
+comment1.target=void\ start(javafx.stage.Stage)
+comment1.text=\r\n\ start\:\r\n\ Sets\ the\ title\ of\ the\ primary\ stage\ and\ initializes\ the\ game\ setup.\r\n
+comment2.params=stage
+comment2.target=void\ setupGame(javafx.stage.Stage)
+comment2.text=\r\n\ setupGame\:\r\n\ Initializes\ the\ game\ layout\ with\ a\ grid\ of\ buttons\ and\ an\ instructions\ pane.\ Randomly\ selects\ prize\ positions,\r\n\ \ \ \ \ \ sets\ up\ the\ background\ image\ for\ the\ main\ layout,\ and\ displays\ the\ scene.\r\n
+comment3.params=index\ button
+comment3.target=void\ handleButtonClick(int,\ javafx.scene.control.Button)
+comment3.text=\r\n\ handleButtonClick\:\r\n\ Handles\ the\ logic\ for\ when\ a\ button\ in\ the\ grid\ is\ clicked.\ \r\n\ \ \ \ \ \ Increments\ attempts,\ checks\ if\ the\ button\ clicked\ is\ a\ prize,\ updates\ the\ button\ text\ accordingly,\ and\ checks\ for\ win/lose\ conditions.\r\n
+comment4.params=alertType\ title\ message
+comment4.target=void\ showAlert(javafx.scene.control.Alert.AlertType,\ java.lang.String,\ java.lang.String)
+comment4.text=\r\n\ showAlert\:\r\n\ \ \ \ \ \ Displays\ an\ alert\ with\ a\ specified\ type,\ title,\ and\ message.\r\n
+comment5.params=
+comment5.target=void\ resetGame()
+comment5.text=\r\n\ resetGame\:\r\n\ Resets\ the\ game\ by\ reinitializing\ the\ game\ setup\ with\ the\ current\ stage.\r\n
+numComments=6
